@@ -1,0 +1,7 @@
+// policy for DIO framework
+grant {
+        permission jdk.dio.gpio.GPIOPinPermission ":18";
+        permission jdk.dio.gpio.GPIOPinPermission "0:18";
+
+        permission jdk.dio.DeviceMgmtPermission "*:*", "open";
+};
